@@ -1,0 +1,259 @@
+﻿
+body {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.container-fluid{
+    padding-top:20px;
+}
+.navbar{
+    min-height:80px !important;
+}
+
+p{
+    color:white;
+    
+}
+
+h1{
+    color:white;
+    font-size:55px;
+    font-weight:bold;
+    margin-top:130px;
+   
+}
+
+.text-center{
+    text-align:center;
+
+}
+
+.bg-body{
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 0px;
+    overflow: hidden;
+    background-image: url("Banner.jpg");
+    height: 570px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.reg-bg{
+     background-image: url("reqbg.jpg") !important;
+}
+.contact-bg{
+     background-image: url("contactUs.jpg") !important;
+}
+
+.registerHere {
+    width: 80%;
+    height: 60px;
+    font-size: 21px;
+    font-weight: 500;
+    background-color: #61c523;
+    border: 0px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 3px #2A730D;
+    font-family: robotoRegular;
+}
+.btn
+{
+    background-color: gray;
+}
+.greenButton {
+    border: 0px solid #7d99ca;
+    font-family: arial, helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #61c523;
+}
+.submitButton{
+    border: 0px solid #7d99ca;
+    font-family: arial, helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    color:#61c523 ;
+    background-color: #d8d8d8;
+	width:20%;
+	 padding: 6px 0px !important; 
+    text-align: center !important;
+    height: 34px !important;
+  
+    font-size: 16px !important;
+}
+
+.greenButton:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #59b71f;
+    
+}
+.qstnAnswrs{
+    margin-top: 50px !important;
+    border: solid 2px #D8D850;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.navbar-inverse{
+    background-image:none !important;
+    border-radius:0 !important;
+    border-color:transparent !important;
+    background-color:transparent !important;
+
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a{
+    background-image:none !important;
+   background-color:transparent !important;
+   box-shadow:none !important;
+ }
+
+.navbar-inverse .navbar-nav>li>a{
+    color:white !important;
+    font-weight:bold !important;
+}
+.navbar-brand{
+    padding:0px 0px 0px 15px !important;
+}
+
+.quizlogo{
+    min-height: 44px;
+    width: 175px;
+}
+   
+.quizCategory-Section{
+    margin-top:60px;
+}
+
+.category-logo{
+    height:250px;
+    width:305px;
+}
+
+.footer-bg{
+     background-color: #3d87c6;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    float: left;
+    margin-left: 0%;
+    height: 75px;
+   
+}
+
+.login-modal-dialog{
+    width: 775px;
+    margin: 130px auto;
+    color:black !important;
+}
+
+.login-modal-content{
+    border-radius:0px !important;
+}
+#loginSection{
+    margin: 100px 30px 20px 50px;
+    text-align: center;
+}
+.loginIDEmail{
+    border-radius:0px !important;
+    background-color: #e1e0e0 !important;
+    border: 0px solid #ccc !important;
+    font-size:15px !important;
+}
+.loginIDPasswrd{
+    border-radius:0px !important;
+    background-color: #e1e0e0 !important;
+    border: 0px solid #ccc !important;
+    font-size:15px !important;
+}
+
+.loginBtn{
+    padding: 6px 0px !important; 
+    text-align: center !important;
+    height: 34px !important;
+    width: 100% !important;
+    font-size: 16px !important;
+}
+.emailSection,.pwdSection,.loginBtnSection{
+        margin: 0px 50px 20px 50px;
+}
+.form-top {
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: #fff;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    text-align: left;
+}
+.form-top-left {
+    float: left;
+    width: 75%;
+    padding-top: 25px;
+}
+.form-top-left h3,.form-top-left p{
+    color:black !important;
+}
+
+.form-top-right {
+    float: left;
+    width: 25%;
+    padding-top: 5px;
+    font-size: 66px;
+    color: #ddd;
+    line-height: 100px;
+    text-align: right;
+}
+.form-bottom {
+    padding: 25px 25px 30px 25px;
+    background: #eee;
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    text-align: left;
+}
+.inner-bg{
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.form-box {
+    padding-top: 40px;
+}
+.text h1{
+    margin-top:0px !important;
+}
+
+.padding-section{
+    padding:0px 20px 0px 95px !important;
+    margin-bottom:20px !important;
+}
+
+.padding-section-txt{
+    padding-left:0px !important;
+     margin-bottom:20px !important;
+     text-align:center !important;
+     font-size:20px !important;
+     font-weight:bold !important;
+     
+}
+
+.chlg-btn{
+    height: 50px !important;
+    width: 80% !important;
+    font-weight:bold !important;
+}
+
+
+
+
